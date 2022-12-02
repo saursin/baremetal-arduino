@@ -10,7 +10,7 @@ sudo apt install gcc-avr binutils-avr avr-libc gdb-avr avrdudr
 ```
 
 
-# Arduino Pins & Ports
+## Arduino Pins & Ports
 ```
                   +-----___-----+
      Reset  PC6  =|1          28|=  PC5  A5
@@ -28,13 +28,15 @@ sudo apt install gcc-avr binutils-avr avr-libc gdb-avr avrdudr
        [7]  PD7  =|13         16|=  PB2  [10] ~
        [8]  PB0  =|14         15|=  PB1  [ 9] ~
                   +-------------+ 
+
+ ~ PWM enabled pins
 ```
 * PC6: used for device reset
 * PB6 & PB7: connected to oscillator
 * Analog pins can also be used for digital IO
 
 
-# Specs
+## Specs
 
 * Flash: 32KB
 * SRAM: 2KB
@@ -42,7 +44,7 @@ sudo apt install gcc-avr binutils-avr avr-libc gdb-avr avrdudr
 
 
 
-# RAM Memory Map
+## RAM Memory Map
 
 ```
 Register space: 0x000 - 0x01F     0x20

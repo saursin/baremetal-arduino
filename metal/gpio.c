@@ -3,17 +3,17 @@
 
 void gpio_pinmode(uint8_t pin, PinDir dir)
 {
-    uint32_t ddr_offset=0;
+    uint32_t ddr=0;
 
     if(pin >= 0 && pin <= 7) 
-        ddr_offset = REG_OFFSET_DDRD;
+        ddr = REG_DDRD;
     else if (pin >= 8 && pin <=13)
-        ddr_offset = REG_OFFSET_DDRB;
+        ddr = REG_DDRB;
     else if (pin >= 14 && pin <=19)
-        ddr_offset = REG_OFFSET_DDRC;
+        ddr = REG_DDRC;
     
 
-    // ddr_offset = 
+    // ddr = 
 
 }
 

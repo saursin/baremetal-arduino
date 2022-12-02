@@ -11,3 +11,5 @@
 void uart_init(uint16_t div);
 
 void uart_putchar(char c);
+
+char uart_getchar();

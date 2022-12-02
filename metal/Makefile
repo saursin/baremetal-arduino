@@ -4,7 +4,7 @@ include ../mk/toolchain.mk
 $(shell mkdir -p build)
 
 ARCH:= -mmcu=atmega328p
-CFLAGS:= -Os -DF_CPU=16000000UL -I include
+CFLAGS:= -Os -DF_CPU=16000000UL -I include -ffreestanding
 LFLAGS:= 
 
 SRCS:= $(sort $(wildcard *.c))

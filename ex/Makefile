@@ -17,7 +17,7 @@ SSRCS:= $(addprefix $(ex)/, $(SSRCS))
 EXEC:= 	$(addprefix $(ex)/, $(EXEC))
 
 ARCH:= -mmcu=atmega328p
-CFLAGS:= -Os -DF_CPU=16000000UL -I ../metal/include
+CFLAGS:= -Os -DF_CPU=16000000UL -I ../metal/include -ffreestanding
 LFLAGS:= -L ../metal/build -lmetal
 
 HEX?=0

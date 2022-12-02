@@ -3,7 +3,7 @@ include ../mk/toolchain.mk
 
 ARCH:= -mmcu=atmega328p
 CFLAGS:= -Os -DF_CPU=16000000UL -I include
-LFLAGS:= -L ../metal -lmetal
+LFLAGS:= -L ../../metal/build -lmetal
 
 # C source files
 CSRCS:= 

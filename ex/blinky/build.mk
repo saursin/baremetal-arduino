@@ -1,4 +1,4 @@
 CSRCS:= blinky.c
 EXEC:= blinky.elf
 
-include ../common/application.mk
+include mk/obj.mk

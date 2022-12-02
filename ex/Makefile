@@ -55,3 +55,5 @@ clean:
 .PHONY: clean-all
 clean-all:
 	@$(patsubst %/, make ex=% clean;, ${EXAMPLE_DIRS})
+
+include ../mk/prog.mk

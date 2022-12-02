@@ -1,4 +1,5 @@
 #include "gpio.h"
+int delay(int a){}
 
 int main()
 {

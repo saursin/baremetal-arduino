@@ -1,7 +1,7 @@
 *.a
 *.o
 *.Map
-*.objd
+*.objd.txt
 *.elf
 *.bin
 *.hex

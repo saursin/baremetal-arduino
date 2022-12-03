@@ -52,3 +52,16 @@ I/O Space:      0x020 - 0x05F     0x40
 SRAM Space:     0x060 - 0x7FF       
 
 ```
+
+## Instructions
+
+### compiling driver library (libmetal)
+```bash
+make -C metal
+```
+
+## Compiling & Running Example
+```bash
+make -C ex ex=blinky       # compile
+make -C ex ex=blinky prog  # program
+```
